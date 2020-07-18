@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './contact.css'
 
 const Contact =()=> {
@@ -6,6 +6,7 @@ const Contact =()=> {
     //insert functionality of contact page
 
     return (
+    <>    
         <div class="container"/> 
             <div style="text-align:center">
                 <h2>Contact Us</h2>
@@ -38,8 +39,8 @@ const Contact =()=> {
     <div/>
   <div/>
 <div/>
-     
+    </> 
         );
-    }
+    };
   
   export default Contact
