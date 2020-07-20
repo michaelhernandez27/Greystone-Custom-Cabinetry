@@ -1,46 +1,79 @@
-import React from 'react';
-import './contact.css'
+import React from "react";
+import {  MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
 
-const Contact =()=> {
-    
-    //insert functionality of contact page
-
-    return (
-    <>    
-        <div class="container"/> 
-            <div style="text-align:center">
-                <h2>Contact Us</h2>
-                <p>Swing by for a tour of the workshop, or leave us a message:</p>
-        </div>
-    <div class="row"/>
-        <div class="column"/>
-            <img src="/greystone picture?" style="width:100%"/>
-        <div/>
-    <div class="column"/>
-      <form action="/action_page.php"/>
-        
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name.."/>
-        
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Your email.."/>
-        
-        <label for="phone">Phone Number</label>
-        <input type="text" id="phone" name="phone" placeholder="Your phone number.."/>
-
-        <label for="location">City of Location</label>
-        <input type="text" id="location" name="location" placeholder="Your city of location.."/>
-        
-        <label for="comment">Comments/Questions</label>
-        <textarea id="comment" name="comment" placeholder="Write something.." style="height:170px"></textarea>
-        
-        <input type="submit" value="Submit"/>
-      <form/>
-    <div/>
-  <div/>
-<div/>
-    </> 
-        );
-    };
-  
+const ContactPage = () => {
+  return (
+    <MDBContainer>
+      <h2 className="h1-responsive font-weight-bold text-center my-5">
+        Contact us
+      </h2>
+      <p className="text-center w-responsive mx-auto pb-5">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+        error amet numquam iure provident voluptate esse quasi, veritatis
+        totam voluptas nostrum quisquam eum porro a pariatur veniam.
+      </p>
+      <MDBRow>
+        <MDBCol md="9" className="md-0 mb-5">
+          <form>
+            <MDBRow>
+              <MDBCol md="6">
+                <div className="md-form mb-0">
+                  <MDBInput type="text" id="contact-name" label="Your name" />
+                </div>
+              </MDBCol>
+              <MDBCol md="6">
+                <div className="md-form mb-0">
+                  <MDBInput
+                    type="text"
+                    id="contact-email"
+                    label="Your email"
+                  />
+                </div>
+              </MDBCol>
+            </MDBRow>
+            <MDBRow>
+              <MDBCol md="12">
+                <div className="md-form mb-0">
+                  <MDBInput type="text" id="contact-subject" label="Subject" />
+                </div>
+              </MDBCol>
+            </MDBRow>
+            <MDBRow>
+              <MDBCol md="12">
+                <div className="md-form mb-0">
+                  <MDBInput
+                    type="textarea"
+                    id="contact-message"
+                    label="Your message"
+                  />
+                </div>
+              </MDBCol>
+            </MDBRow>
+          </form>
+          <div className="text-center text-md-left">
+            <MDBBtn color="primary" size="md">
+              Send
+            </MDBBtn>
+          </div>
+        </MDBCol>
+        <MDBCol md="3" className="text-center">
+          <ul className="list-unstyled mb-0">
+            <li>
+              <MDBIcon icon="map-marker-alt" size="2x" className="blue-text" />
+              <p>San Francisco, CA 94126, USA</p>
+            </li>
+            <li>
+              <MDBIcon icon="phone" size="2x" className="blue-text mt-4" />
+              <p>+ 01 234 567 89</p>
+            </li>
+            <li>
+              <MDBIcon icon="envelope" size="2x" className="blue-text mt-4" />
+              <p>contact@example.com</p>
+            </li>
+          </ul>
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
+  );
+}
   export default Contact
