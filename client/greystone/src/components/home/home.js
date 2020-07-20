@@ -3,18 +3,18 @@ import './home.css';
 
 const Home =()=> {
   return (
-<>    
+<>  
 <body/>
 
 <div class="header">
   <h1>Greystone Custom Cabinetry</h1>
 </div>
 
-<div class="navbar">
+<div class="navbar"/>
   <a href="../components/home/home.js" class="active">Home</a>
   <a href="./components/contact.contact.js">Contact</a>
   <a href="./components/reviews/reviews.js">Reviews</a>
-</div>
+<div/>
 
 <div class="row"/>
   <div class="side"/>
@@ -25,7 +25,7 @@ const Home =()=> {
   <div/>
   <div class="main"/>
     <h2>Let us come and make your dream come true for your home with our exceptional work!</h2>
-    <div class="fakeimg" style="height:200px;">Image</div>
+    <div class="fakeimg" style="height:200px;"/><div/>
     <p>insert images of past jobs</p>
     <br/>
   <div/>
