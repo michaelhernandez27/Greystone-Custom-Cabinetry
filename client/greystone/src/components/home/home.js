@@ -12,8 +12,8 @@ const Home =()=> {
 
 <div class="navbar"/>
   <a href="../components/home/home.js" class="active">Home</a>
-  <a href="./components/contact.contact.js">Contact</a>
-  <a href="./components/reviews/reviews.js">Reviews</a>
+  <a href="../components/contact.contact.js">Contact</a>
+  <a href="../components/reviews/reviews.js">Reviews</a>
 <div/>
 
 <div class="row"/>
