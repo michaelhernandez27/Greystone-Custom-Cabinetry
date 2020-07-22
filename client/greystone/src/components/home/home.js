@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import './home.css';
 
 const Home =()=> {
@@ -14,7 +14,8 @@ const Home =()=> {
   <a href="../components/home/home.js" class="active">Home</a>
   <a href="../components/contact/contact.js">Contact</a>
   <a href="../components/reviews/reviews.js">Reviews</a>
-  <a href="../components/signup/signup.js">Reviews</a>
+  <a href="../components/signup/signup.js">Signup</a>
+  <a href="../components/signup/login.js">Login</a>
 <div/>
 
 <div class="row"/>

@@ -1,9 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import {  MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
 import "./contact.css"
 
-const Contact = () => {
-  return (
+class Contact extends Component() {
+  render() {
+    return (
     <MDBContainer>
       <h2 className="h1-responsive font-weight-bold text-center my-5">
         Contact us
@@ -74,5 +75,6 @@ const Contact = () => {
       </MDBRow>
     </MDBContainer>
   );
+}
 }
   export default Contact
