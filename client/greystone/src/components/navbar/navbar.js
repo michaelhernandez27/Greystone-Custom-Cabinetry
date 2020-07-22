@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { Component } from "react";
 import './navbar.css';
 import {Link} from 'react-router-dom';
 
-function Navbar () {
+class Navbar extends Component () {
+render() {
   return (
       <nav>
           <ul className="nav-options">
@@ -12,7 +13,7 @@ function Navbar () {
           </ul>
       </nav>
   );
-
+  }
 };
 
 export default Navbar;

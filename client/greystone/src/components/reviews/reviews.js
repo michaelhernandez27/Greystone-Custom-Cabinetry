@@ -1,9 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBTestimonial, MDBAvatar,  MDBIcon } from "mdbreact";
 import "./reviews.css"
 
-const Reviews = () => {
-  return (
+class Reviews extends Component {
+    render() {
+    return (
     <MDBContainer>
       <section className="team-section text-center my-5">
           <h2 className="h1-responsive font-weight-bold my-5">
@@ -105,5 +106,5 @@ const Reviews = () => {
     </MDBContainer>
   );
 }
-
+}
 export default Reviews;
