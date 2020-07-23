@@ -64,7 +64,7 @@ class Signup extends Component {
             value={values.username}
             className="form-control"
             placeholder="Username"
-            className={
+            className1={
               errors.username && touched.username
                 ? "form-control is-invalid"
                 : "form-control"
@@ -103,7 +103,7 @@ class Signup extends Component {
             value={values.password}
             className="form-control"
             placeholder="Password"
-            className={
+            className1={
               errors.password && touched.password
                 ? "form-control is-invalid"
                 : "form-control"

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBTestimonial, MDBAvatar,  MDBIcon } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
+import Testimonial from 'react-testimonial';
 import "./reviews.css"
 
 class Reviews extends Component {
@@ -13,14 +14,12 @@ class Reviews extends Component {
 
           <MDBRow className="text-center">
             <MDBCol md="4" className="mb-md-0 mb-5">
-              <MDBTestimonial>
-                <MDBAvatar className="mx-auto">
-                  <img
+              <Testimonial>
+              <img className="mx-auto"
                     src="BryceHarper.png"
                     alt=""
-                    className="rounded-circle z-depth-1 img-fluid"
+                    className1="rounded-circle z-depth-1 img-fluid"
                   />
-                </MDBAvatar>
                 <h4 className="font-weight-bold dark-grey-text mt-4">
                   Bryce Harper
                 </h4>
@@ -40,17 +39,16 @@ class Reviews extends Component {
                   <MDBIcon icon="star" />
                   <MDBIcon far icon="star-half" />
                 </div>
-              </MDBTestimonial>
+              </Testimonial>
             </MDBCol>
             <MDBCol md="4" className="mb-md-0 mb-5">
-              <MDBTestimonial>
-                <MDBAvatar className="mx-auto">
-                  <img
+              <Testimonial>
+              <img className="mx-auto"
                     src="/BarackObama.jpg"
                     alt=""
-                    className="rounded-circle z-depth-1 img-fluid"
-                  />
-                </MDBAvatar>
+                    className1="rounded-circle z-depth-1 img-fluid"
+                />
+                
                 <h4 className="font-weight-bold dark-grey-text mt-4">
                   Barack Obama
                 </h4>
@@ -69,17 +67,15 @@ class Reviews extends Component {
                   <MDBIcon icon="star" />
                   <MDBIcon icon="star" />
                 </div>
-              </MDBTestimonial>
+              </Testimonial>
             </MDBCol>
             <MDBCol md="4">
-              <MDBTestimonial>
-                <MDBAvatar className="mx-auto">
-                  <img
+              <Testimonial>
+                <img className="mx-auto"
                     src="/JenniferLopez.jpg"
                     alt=""
-                    className="rounded-circle z-depth-1 img-fluid"
-                  />
-                </MDBAvatar>
+                    className1="rounded-circle z-depth-1 img-fluid"
+                />
                 <h4 className="font-weight-bold dark-grey-text mt-4">
                   Jennifer Lopez
                 </h4>
@@ -99,7 +95,7 @@ class Reviews extends Component {
                   <MDBIcon icon="star" />
                   <MDBIcon far icon="star" />
                 </div>
-              </MDBTestimonial>
+              </Testimonial>
             </MDBCol>
           </MDBRow>
         </section>
