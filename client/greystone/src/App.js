@@ -8,6 +8,9 @@ import Navbar from "./components/navbar"
 import Signup from "./components/signup"
 
 class App extends Component() {
+    componentWillUpdate(nextProps, nextState) {
+        console.log("update");
+      }
     render() {
     return (
         <Router>
