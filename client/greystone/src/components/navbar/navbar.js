@@ -10,6 +10,8 @@ render() {
               <Link to="/"><li>Home</li></Link>
               <Link to="/contact"><li>Contact</li></Link>
               <Link to="/reviews"><li>Reviews</li></Link>
+              <Link to="/signup"><li>Signup</li></Link>
+              <Link to="/login"><li>Login</li></Link>
           </ul>
       </nav>
   );
