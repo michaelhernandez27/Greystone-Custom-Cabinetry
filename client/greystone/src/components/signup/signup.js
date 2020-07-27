@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+/*import React, { Component } from "react";
 import { Formik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -152,9 +152,10 @@ class Signup extends Component {
               already member?
             </button>
           </div>
-          {/* /.col */}
-        </div>
-      </form>
+          {/* /.col */
+        /*</div>
+      </form> 
+      
     );
   };
 
@@ -184,13 +185,13 @@ class Signup extends Component {
                 {props => this.showForm(props)}
               </Formik>
             </div>
-            {/* /.form-box */}
-          </div>
-          {/* /.card */}
-        </div>
+            {/* /.form-box */
+          /*</div>
+          {/* /.card */
+        /*</div>
       </div>
     );
   }
 }
 
-export default Signup;
+export default Signup;*/
