@@ -1,4 +1,4 @@
-/*import React, { Component } from "react";
+import React, { Component } from "react";
 import { Formik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -156,20 +156,20 @@ class Login extends Component {
                 }}
                 validationSchema={LoginSchema}
               >
-                {/* {this.showForm()}            */
-              /*  {props => this.showForm(props)}
+               {/* {this.showForm()}            */}         
+               { props => this.showForm(props)}
               </Formik>
               <p class="mb-0">
                 <Link to="/signup">Register a new member of Greystone!</Link>
               </p>
             </div>
-            {/* /.form-box */
+            {/* /.form-box */}
          /* </div>
-          {/* /.card */
+          {/* /.card */}
        /* </div>
       </div>
     );
   }
 }
 
-export default Login;*/
+export default Login;
