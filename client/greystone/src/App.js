@@ -42,6 +42,8 @@ export default class App extends Component {
   }
 
   render() {
+
+    
     // const {pathname} = this.props.location;
     return (
       <Router>
