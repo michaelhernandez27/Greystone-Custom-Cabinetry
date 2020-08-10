@@ -152,8 +152,8 @@ class Signup extends Component {
               already member?
             </button>
           </div>
-          {/* /.col */}
-        /*</div>
+          {/*.col */}
+        </div>
       </form> 
       
     );
@@ -167,7 +167,7 @@ class Signup extends Component {
           </div>
           <div className="card">
             <div className="card-body signup-card-body">
-              <p className="login-box-msg">Signup as a new member of Greystone Cabinetry!</p>
+              <p className="login-box-msg">Signup as a new member of Greystone!</p>
 
               <Formik
                 initialValues={{
@@ -185,10 +185,10 @@ class Signup extends Component {
                 {props => this.showForm(props)}
               </Formik>
             </div>
-            {/* /.form-box */}
-          /*</div>
-          {/* /.card */}
-        /*</div>
+            {'/*.form-box */'}
+          </div>
+          {'/*.card */'}
+        </div>
       </div>
     );
   }

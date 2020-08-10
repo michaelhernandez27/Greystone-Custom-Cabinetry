@@ -160,7 +160,7 @@ class Login extends Component {
                { props => this.showForm(props)}
               </Formik>
               <p class="mb-0">
-                <Link to="/signup">Register a new member of Greystone!</Link>
+                <Link to="/signup">Register as a new member of Greystone!</Link>
               </p>
             </div>
             {/* /.form-box */}

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {  MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
 import "./contact.css"
 
-class Contact extends Component() {
+class Contact extends Component {
   render() {
     return (
     <MDBContainer>
